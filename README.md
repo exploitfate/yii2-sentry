@@ -32,7 +32,6 @@ return [
         // ...
         'sentry' => [
             'class' => 'exploitfate\yii\sentry\Sentry',
-            'name' => 'website.com', // optional, uses Yii::$app->name by default
             'enabled' => false, // optional, default = false
             'options' => [
                 'dsn' => 'http://1234567890:abcddefg0987654321@sentry.io/7654321',
