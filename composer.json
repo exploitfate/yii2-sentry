@@ -1,0 +1,32 @@
+{
+    "name": "exploitfate/yii2-sentry",
+    "description": "Yii2 Sentry package",
+    "type": "project",
+    "license": "MIT",
+    "keywords": ["yii2", "sentry"],
+    "authors": [
+        {
+            "name": "exploitfate",
+            "email": "exploitfate@yahoo.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0",
+        "ext-excimer": "*",
+        "yiisoft/yii2": "*",
+        "sentry/sdk": "^4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "exploitfate\\yii\\sentry\\": ""
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "allow-plugins": {
+            "yiisoft/yii2-composer": true
+        }
+    }
+}
